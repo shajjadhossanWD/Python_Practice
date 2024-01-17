@@ -212,3 +212,21 @@ booleann = {True, False, True}
 
 
 # Python Access Dictionary Items====================
+myinfo = {
+    "category": {
+        "parentCategory": "Boards",
+        "subCategory": "Melamine Board",
+        "description": "Elevate your interior",
+        "title": "Melamine Board",
+    },
+    "info": {
+        "location": "Dhaka",
+        "price": "BDT 3000",
+        "contactInfo": "01787764356",
+        "seller": "652626a0fc85f53bc8bb88c7"
+    },
+    "name": "Md shajjad"
+
+}
+print(myinfo["category"]["title"])
+print(myinfo["name"])
