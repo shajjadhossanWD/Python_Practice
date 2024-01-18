@@ -4,12 +4,12 @@
 #==================== Sequence types data==========================
 # List, Tuple, Range => Sequence types data
 
-List = ["a", "b", "c"] #miutable data
-List[2] = "Shajjad"
-
-Tuple = ("a", "b", "c") #immiutable
-
-Range = range(6);
+# List = ["a", "b", "c"] #miutable data
+# List[2] = "Shajjad"
+#
+# Tuple = ("a", "b", "c") #immiutable
+#
+# Range = range(6);
 
 # for i in Range: print(i)
 
@@ -37,10 +37,10 @@ Range = range(6);
 
 
 #================== Swapping ======================
-a = 50
-b = 60
-
-a, b = b, a
+# a = 50
+# b = 60
+#
+# a, b = b, a
 # print(a, b)
 
 
@@ -59,12 +59,12 @@ a, b = b, a
 
 
 #=================pythone list================
-mylist = ["apple", "banana","abc", "cde", "edh", "123"]
-mylist.append("orange")
+# mylist = ["apple", "banana","abc", "cde", "edh", "123"]
+# mylist.append("orange")
 
 # print(mylist)
 
-mylist.insert(1, "banana")
+# mylist.insert(1, "banana")
 
 # print(mylist)
 
@@ -96,8 +96,8 @@ mylist.insert(1, "banana")
 #     y = y + 1
 
 # List comprehension ===========================
-numberlist = [1,3,9,5,2,7,4,8]
-strr = ["c", "b", "a", "d", "f", "e"]
+# numberlist = [1,3,9,5,2,7,4,8]
+# strr = ["c", "b", "a", "d", "f", "e"]
 # for i in numberlist : print( i * 2 )
 
 # Double = [ i * 2 for i in numberlist ]
@@ -139,7 +139,7 @@ strr = ["c", "b", "a", "d", "f", "e"]
 
 
 # python tuples =========================================
-numberlis1 =(1,3,9,5,2,7,4,8)
+# numberlis1 =(1,3,9,5,2,7,4,8)
 # a =list(numberlis1)
 # a.append("shajjad")
 # y = tuple(a)
@@ -179,9 +179,9 @@ numberlis1 =(1,3,9,5,2,7,4,8)
 
 
 # python sets ==================================================
-myset = {"Shajjad", "Sakib", "Sahed", "Mehedi", "Areafat"}
-myset1 = {1, 2, 4, 5, 3, 8, 6, 7}
-booleann = {True, False, True}
+# myset = {"Shajjad", "Sakib", "Sahed", "Mehedi", "Areafat"}
+# myset1 = {1, 2, 4, 5, 3, 8, 6, 7}
+# booleann = {True, False, True}
 
 # print(myset)
 # print(myset1)
@@ -212,21 +212,124 @@ booleann = {True, False, True}
 
 
 # Python Access Dictionary Items====================
-myinfo = {
-    "category": {
-        "parentCategory": "Boards",
-        "subCategory": "Melamine Board",
-        "description": "Elevate your interior",
-        "title": "Melamine Board",
-    },
-    "info": {
-        "location": "Dhaka",
-        "price": "BDT 3000",
-        "contactInfo": "01787764356",
-        "seller": "652626a0fc85f53bc8bb88c7"
-    },
-    "name": "Md shajjad"
+# myinfo = {
+#     "category": {
+#         "parentCategory": "Boards",
+#         "subCategory": "Melamine Board",
+#         "description": "Elevate your interior",
+#         "title": "Melamine Board",
+#     },
+#     "info": {
+#         "location": "Dhaka",
+#         "price": "BDT 3000",
+#         "contactInfo": "01787764356",
+#         "seller": "652626a0fc85f53bc8bb88c7"
+#     },
+#     "name": "Md shajjad"
+#
+# }
+# print(myinfo["category"]["title"])
+# print(myinfo["name"])
 
-}
-print(myinfo["category"]["title"])
-print(myinfo["name"])
+# print(myinfo.get("info").get("price"))
+# print(myinfo.keys())
+# print(myinfo.values())
+
+
+# Change Dictionaries items ==========================
+# changes= myinfo["name"] = "Sahed vai"
+# print(changes)
+# print(myinfo)
+#
+# updatechanges = myinfo.update({"name" : "tutul"})
+#
+# print(updatechanges)
+# print(myinfo)
+
+# myinfo.pop("name")
+# myinfo.pop("category")
+# myinfo.popitem()
+# del myinfo["category"]
+# myinfo["category"].clear()
+# myinfo.clear()
+# print(myinfo)
+
+# for i in myinfo["category"] :
+#     print(i)
+
+# for i in myinfo["info"] :
+#     print(i)
+
+# for i in myinfo.values():
+#     print(i)
+
+# for i in myinfo.keys():
+#     print(i)
+
+# for i, j in myinfo.items():
+#     print(i, j)
+
+
+# Python copy Dictionaries =====================================
+
+# myNewInfo = myinfo.copy()
+
+# print(myNewInfo)
+
+# myNew = dict(myinfo)
+# print(myNew)
+
+
+# Python conditions and if statements ===================================================
+#
+# a = 100
+# b = 1200
+# c = 60
+# d = 100
+#
+# if a > b:
+#     print("a is big")
+# elif a == d:
+#     print("a and b equal")
+# else :
+#     print("b is big")
+
+
+# Python loops ===============================================================================
+# for loop
+# while loop
+# aaa = 1
+# while aaa < 10 :
+#      print("yes")
+#      aaa = aaa + 1
+
+
+# python functions ==================================================================
+
+# namee = "shajjad hossan"
+# Roll = 2344
+# isFalse = True
+#
+# def My_function(name):
+#     print(name)
+#
+# My_function(namee)
+# My_function(Roll)
+# My_function(isFalse)
+
+
+arrayList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# for x in range(len(arrayList)):
+#     if x == 5:
+#         break
+#     print(x)
+#
+# print("continueeeeee")
+#
+# for x in range(len(arrayList)):
+#     if x == 5:
+#         continue
+#     print(x)
+
+
