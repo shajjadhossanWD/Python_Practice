@@ -333,3 +333,126 @@ arrayList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 #     print(x)
 
 
+# Python zip function ============================================
+# list1 = [11, 22, 33, 44]
+# list2 = [55, 66, 77, 88]
+#
+# print(list(zip(list1, list2)))
+
+
+# Python Lamda function ==========================================
+
+# myFun = lambda a, b : a*b
+#
+# print(myFun(2, 5))
+
+
+# Python debugging ===================================================
+
+# Python Array =========================================
+
+# python Classes and Objects ==========================================
+
+class Parents:
+     car = "BMW"
+     house = "4 Cr"
+     money = "12223456734"
+     child = "5"
+
+
+class Parents2:
+    ac = "sonny"
+    pc = "big"
+    laptop = "hp corei 7"
+    iphone = "12"
+
+class Parents3:
+    tv = "sonny led"
+    bike = "big bike"
+    gf = "hp onk"
+    tree = "142"
+
+class kaka(Parents, Parents2, Parents3):
+    etc = "BMW3e"
+    btc = "3 Cree"
+
+A = kaka()
+# print(A.child)
+
+# Multiple Inheritance =======================
+
+
+
+# python iterators ====================================================
+Myarray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+# for i in Myarray:
+#     print(i)
+
+x = iter(Myarray)
+# print(x.__next__())
+# print(next(x))
+
+# Python Scope =========================================================
+
+# Pythone DateTime =====================================================
+
+import datetime
+a = datetime.datetime.now()
+
+# print(a.strftime("%A"))
+# print(a.strftime("%D"))
+# print(a.strftime("%T"))
+# print(a.strftime("%Y"))
+# print(a.strftime("%m"))
+
+
+# Math module ===========================
+# print(min(Myarray))
+# print(max(Myarray))
+#
+# a = -34
+# print(abs(a))
+# print(pow(3, 6))
+
+
+# Python Regex ==========================
+import re
+myText = "My name is Md Shajjad Hossan, and i'm a software developer."
+# findall
+# search
+# split
+# sub
+
+# pattern = "[a-z]"
+# pattern1 = "^1"
+# pattern2 ="/d"
+# # print(re.findall("[A-Z]", myText))
+# # print(re.findall(pattern, myText))
+# a = re.findall(pattern1, myText)
+# b = re.findall(pattern2, myText)
+#
+# print(b)
+#
+# if a:
+#     print("true")
+# else:
+#     print("false")
+
+
+# Try and Except ==========================
+# try:
+#     print("successfulll")
+# except:
+#     print(fhhhhh)
+#
+# print("hellooooooooooo")
+
+
+# Python file open ===========================
+
+# readText = open("text.text", "r")
+# print(readText.read())
+
+create = open("shajjad.html", "w")
+create.write("<h1>MD shajjad</h1>")
